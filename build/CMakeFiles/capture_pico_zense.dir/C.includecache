@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ini.h
+stdio.h
+-
+
+/home/zxy/tmp/capture_pico_zense/src/ini.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+ini.h
+/home/zxy/tmp/capture_pico_zense/src/ini.h
+stdlib.h
+-
+

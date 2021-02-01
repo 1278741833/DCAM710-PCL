@@ -19,14 +19,13 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 
-
 enum struct SensorType
 {
   STEREO,
   TOF
 };
 
-/// カメラパラメータ
+//相机参数
 struct CameraParameter{
     float fx;
     float fy;
@@ -37,7 +36,3 @@ struct CameraParameter{
     int image_width;
     int image_height;
 };
-
-
-typedef boost::bimaps::bimap<int, std::string> bimap_t;
-typedef bimap_t::value_type bimap_value_t;

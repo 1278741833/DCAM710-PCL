@@ -1,0 +1,3 @@
+/home/zxy/tmp/capture_pico_zense/build/CMakeFiles/edit_cache.dir
+/home/zxy/tmp/capture_pico_zense/build/CMakeFiles/rebuild_cache.dir
+/home/zxy/tmp/capture_pico_zense/build/CMakeFiles/capture_pico_zense.dir
